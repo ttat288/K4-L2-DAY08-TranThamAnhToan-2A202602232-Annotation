@@ -1,0 +1,7 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0227.jpg,box AI gộp 2 xe đi sát nhau ở làn bên trái giữa ảnh,deleted,Một box của AI ôm cả 2 xe; GUIDELINE_LABEL.md yêu cầu mỗi xe một box nên xóa box gộp
+1,frame_0227.jpg,2 xe đi sát nhau ở làn bên trái giữa ảnh (trước đó bị gộp chung 1 box),added,Sau khi xóa box gộp; vẽ lại 2 box riêng ôm sát thân từng xe
+1,frame_0312.jpg,box AI gộp 2 xe ở làn bên phải,deleted,Box AI bao trùm 2 xe liền nhau nên sai số lượng xe; xóa box gộp
+1,frame_0312.jpg,2 xe ở làn bên phải (trước đó bị gộp chung 1 box),added,Vẽ lại 2 box riêng cho từng xe theo quy tắc mỗi xe một box
+1,frame_0392.jpg,xe ở giữa ảnh,edited,Box AI vẽ rộng quá xa so với thân xe (ôm cả vùng trống/vệt sáng); thu nhỏ còn khoảng 53% diện tích để sát thân xe
+1,frame_0107.jpg,xe ở xa giữa ảnh gần cuối đường,edited,Box AI rộng hơn thân xe; thu nhỏ còn khoảng 60% diện tích cho ôm sát xe
